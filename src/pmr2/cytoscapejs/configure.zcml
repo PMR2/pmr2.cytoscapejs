@@ -1,0 +1,23 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="pmr2.cytoscapejs">
+
+  <browser:page
+      for="*"
+      name="cytoscape_js_demo"
+      class=".view.CytoscapeJSDemo"
+      permission="zope2.View"
+      />
+
+  <browser:resourceDirectory
+      name="pmr2.cytoscapejs.css"
+      directory="css"
+      />
+
+  <browser:resourceDirectory
+      name="pmr2.cytoscapejs.js"
+      directory="js"
+      />
+
+</configure>
