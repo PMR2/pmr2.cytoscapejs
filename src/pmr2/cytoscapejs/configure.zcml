@@ -3,6 +3,8 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="pmr2.cytoscapejs">
 
+  <include file="profiles.zcml" />
+
   <browser:page
       for="*"
       name="cytoscape_js_demo"
