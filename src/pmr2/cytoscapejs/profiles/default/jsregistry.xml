@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
 <object name="portal_javascripts">
  <javascript id="++resource++pmr2.cytoscapejs.js/lib/arbor.js" />
- <javascript id="++resource++pmr2.cytoscapejs.js/lib/cola.v3.min.js" />
+ <javascript id="++resource++pmr2.cytoscapejs.js/lib/cola.v3.min.js"
+    cacheable="True" compression="none" cookable="False" />
  <javascript id="++resource++pmr2.cytoscapejs.js/lib/dagre.js" />
  <javascript id="++resource++pmr2.cytoscapejs.js/lib/springy.js" />
- <javascript id="++resource++pmr2.cytoscapejs.js/build/cytoscape.min.js" />
+ <javascript id="++resource++pmr2.cytoscapejs.js/build/cytoscape.min.js"
+    cacheable="True" compression="none" cookable="False" />
 </object>
